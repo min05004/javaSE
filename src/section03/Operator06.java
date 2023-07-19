@@ -11,7 +11,7 @@ package section03;
  * 
  */
 
-public class Opreator06 {
+public class Operator06 {
 	public static void main(String[] args) {
 	int num1 =3;  //  0011 (4비트 표현시)
 	int num2 =5;  //  0101
@@ -20,6 +20,8 @@ public class Opreator06 {
 	 System.out.println("num1 | num2 : " + (num1 | num2)); // 0111
 	 System.out.println("num1 ^ num2 : " + (num1 ^ num2)); // 0110
 	
+	 // 컴퓨터는 음수를 2의 보수로 생각한다.
+	 // 2의 보수 이어서...
 	 System.out.println("~num1: " + ~num1);
 	 
 	

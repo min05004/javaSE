@@ -6,7 +6,7 @@ package section03;
  * 	-- : 1씩 감소시킨다.
  * 
  */
-public class Opreator02 {
+public class Operator02 {
 	public static void main(String[] args) {
 		 int num = 0;
 		 
@@ -27,3 +27,4 @@ public class Opreator02 {
 		 
 }
 }
+
