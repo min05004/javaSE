@@ -8,7 +8,7 @@ package section03;
  * 
  * 
  * 
- */
+ */ 
 public class Operator04 {
 	public static void main(String[] args) {
 		boolean result = true && false;
