@@ -11,7 +11,7 @@ public class Array05 {
 		};
 		for(int i = 0; i < nums.length; i++) {
 			for(int j = 0; j <nums[i].length; j++) {
-				System.out.printf("i=%d -> nums[%d}[%d] = %d  ",i, i, j, nums[i][j]); // nums[i][j] 를 표현
+				System.out.printf("i=%d -> nums[%d][%d] = %d  ",i, i, j, nums[i][j]); // nums[i][j] 를 표현
 			}
 		System.out.println();
 		}

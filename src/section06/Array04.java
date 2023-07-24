@@ -4,6 +4,7 @@ public class Array04 {
 	public static void main(String[] args) {
 		//2중 배열 선언하기
 		int[][] nums = new int[4][3];
+		
 		nums[0][0] = 1;
 		nums[0][1] = 2;
 		nums[0][2] = 3;
