@@ -7,6 +7,7 @@ package section05;
  *5번 구구단.
  * 2X1 = 2 3X1 =3 4X1 =4 이렇게 3개씩 나오게 하기. 
  * 
+<<<<<<< HEAD
  * 
  * 반복문 조건문 연습
  주말숙제 2중for문 코드 분석하기 
@@ -16,7 +17,15 @@ package section05;
   **
  ***
 ****
+=======
+ */
+public class LoopHomeWork {
+	public static void main(String[] args) {
+		/*
+		 * 2번
+>>>>>>> branch 'master' of https://github.com/min05004/javaSE.git
 
+<<<<<<< HEAD
 3번
    *
   ***
@@ -35,9 +44,7 @@ package section05;
  * 
  */
 
-public class LoopHomeWork {
-	public static void main(String[] args) {
-		
+	
 		//2번
 		   /* for(int i =1 ; i < 5 ; i++) {
 		         for(int j = 4; j >0 ; j--) {
@@ -84,7 +91,7 @@ public class LoopHomeWork {
 		         }
 		         System.out.println( );
 		      }
-		      
-		   
-		   }
-		   }
+		   	}	
+			}
+
+

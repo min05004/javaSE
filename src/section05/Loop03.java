@@ -14,7 +14,7 @@ public class Loop03 {
 	public static void main(String[] args) {
 		//for문을 이용하여 0~9까지 출력
 		
-		for(int i = 0; i < 10; i++) {
+		for(int i = 0; i < 10; i++ ) {
 		// 초기식 ; 조건식이 true 면 반복실행; ->증감식으로 이동 ->다시 조건식으로 이동 /반복.
 			System.out.println(i);
 			
