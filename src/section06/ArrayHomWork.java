@@ -53,7 +53,8 @@ public class ArrayHomWork {
 					};
 		
 		for(int i =0; i <nums.length; i++) {
-			if(i%2!=0) {
+			if(i%2!=0) { 
+//				for(int )
 				System.out.println();
 			} else {
 			
