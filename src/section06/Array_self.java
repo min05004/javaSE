@@ -1,6 +1,6 @@
 package section06;
 
-public class Array_slef {
+public class Array_self {
 	public static void main(String[] args) {
 		int scores[] =  new int[3];
 		//반복문과 같이 쓰는 연습

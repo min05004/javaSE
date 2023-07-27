@@ -1,6 +1,6 @@
 package section06;
 
-public class Array_slef2 {
+public class Array_self2 {
 		public static void main(String[] args) {
 			
 		
