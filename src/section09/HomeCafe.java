@@ -5,6 +5,11 @@ public class HomeCafe {
 			int price;
 			String type;
 			
+			//stactic 초기화 블럭.
+			static {
+				System.out.println("stactic 초기화 블럭");
+			}
+			
 			//초기화 블럭
 				{
 					this.drink = "아메리카노";
