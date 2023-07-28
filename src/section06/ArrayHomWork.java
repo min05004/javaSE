@@ -41,10 +41,12 @@ package section06;
 //지그재그로 나온다는게 무슨말일까..?
 /*
  *  for(int s = 0; s<4 ; s++) {; //1번 학생, 2번학생 ...반복 4번되는 값을 s로 둠.
-					System.out.println((s+1) + "번 학생 점수---");
+				System.out.println((s+1) + "번 학생 점수---");
 				for(int i=0; i<3 ; i++){
-					System.out.println(subject[i]+":"); //subject 값이 0,1,2,scores값이 0,1,2 반복되기 때문에 반복문을 사용.
+					System.out.println(subject[i]+":"); 
+					//subject 값이 0,1,2,scores 값이 0,1,2 반복되기 때문에 반복문을 사용.
 					scores[s][i]=sc.nextInt();
+
 					
  */
 public class ArrayHomWork {
@@ -57,8 +59,8 @@ public class ArrayHomWork {
 		for(int i = 0; i < 7; i++) {
 			System.out.print(i);
 			
-			for(int j=0; j<7; j++) {
-				System.out.print(j+1);
+			for(int j=0; j<50; j++) {
+				System.out.println(j);
 		
 		}
 	}
