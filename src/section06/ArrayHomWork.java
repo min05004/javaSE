@@ -1,4 +1,5 @@
 package section06;
+
 /*
  * 
  * 숙제 7*7
@@ -51,49 +52,75 @@ package section06;
  */
 public class ArrayHomWork {
 	public static void main(String[] args) {
-		
-		int nums[][] = new int[7][7];
-		int arr=1;
-		
-		
-		for(int i = 0; i < 7; i++) {
-			System.out.print(i);
-			
-			for(int j=0; j<50; j++) {
-				System.out.println(j);
-		
-		}
-	}
-	}}
-				
-		
-				
-		
-		/*int [0][0] 1
-		 * int [0][1] 2 int [1][0] 8
-		 * int [0][3] 15  int [1][1] 9  [3][0] 3 
+
+		/*
+		 * int nums[][] = new int[7][7]; int arr=1;
+		 * 
+		 * 
+		 * for(int i = 0; i < 7; i++) { System.out.print(i);
+		 * 
+		 * for(int j=0; j<50; j++) { System.out.println(j);
+		 * 
+		 * } } }}
+		 * 
+		 * 
+		 * 
+		 * 
+		 * /*int [0][0] 1 int [0][1] 2 int [1][0] 8 int [2][0] 15 int [1][1] 9 [0][2] 3
 		 * [4][0] [
 		 */
-	
-	/*	for(int i = 0; i < nums.length; i++) {
-			for(int j = 0; j <nums[i].length; j++) {
-				i-1
+
+		/*
+		 * for(int i = 0; i < nums.length; i++) { for(int j = 0; j <nums[i].length; j++)
+		 * { i-1
+		 * 
+		 * System.out.print (nums[i][j]+" "); // nums[i][j] 를 표현 } System.out.println();
+		 * 
+		 * } }
+		 * 
+		 * }
+		 */
+
+		// 7*7행렬 만들기
+		int[][] arr = new int[7][7];
+
+		for (int i = 0; i < 7; i++) {
+			for (int j = 0; j < 7; j++) {
+				arr[i][j] = i * 7 + j + 1; // 1~49 까지 이중배열에 값 넣기
 				
-				System.out.print (nums[i][j]+" "); // nums[i][j] 를 표현
+				// 위치 값 i 열 기준 /2,4,6 열은 i값은 늘어가고,j값은 줄어듬
+
 			}
-		System.out.println();
-		
-	}
-	}
-
-}
-		*/
-		
-		
-	
+		}
+		for (int i = 0; i < 13; i++) {
 			
+			if (i < 7) {
+				for (int j = 0; j < i + 1; j++) { // 점점 증가하는 모양,위쪽 삼각형
+					if (i % 2 == 0) { // 짝수일때 줄 출력.
+						System.out.print(arr[i - j][j] + " ");// 2,4,6 열은 i값은 늘어가고,j값은 줄어듬 표현 출력.
+					} else {
+						System.out.print(arr[j][i - j] + " "); // 홀수일때 j값 늘어나고 i값 줄어듬.
+					}
+				}
+			} else {
+				for (int j = 0; j < 13 - i; j++) {
+					if (i % 2 == 0) {
+						System.out.print(arr[6 - j][i - 6 + j] + " ");
+					} else {
+						System.out.print(arr[i - 6 + j][6 - j] + " ");
+					}
+				}
+			}
+			System.out.println();
+		}
 
-		
-		
+	}
+}
+/*
+ * 
+ * 
+ * 
+ */
+
 
 

@@ -21,7 +21,7 @@ public class Method04 {
 			sum += value;
 		}
 		
-		double avg = sum /(double)values.length; //sum,values.length 값 자체가 int 이기 때문에, 소수점 값을 받기 위해 (double)로 타입 바꿔줌.
+		double avg = sum /(double)values.length; //sum,values.length 값 자체가 int 이기 때문에,  소수점 값을 받기 위해 (double)로 타입 바꿔줌.
 		// 숫자의 경우는 꼭 한번씩 확인해보기. 
 		
 		result[0] = sum;
