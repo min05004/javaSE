@@ -22,9 +22,8 @@ public class OuterClass04 {
 		 unit.move();
 	}
 	 public static void main(String[] args) {
-		 OuterClass02 outer = new OuterClass02();
-		 //outer.getUnit("마린");
-		
+			OuterClass04 outer = new OuterClass04();
+			outer.getUnit("마린");
 		
 	}
 
