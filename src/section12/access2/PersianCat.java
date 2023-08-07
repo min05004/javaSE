@@ -20,4 +20,10 @@ public class PersianCat implements Cat{
 		
 	}
 
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
