@@ -20,8 +20,8 @@ public class ExceptionClass01 {
 	 
 		int num1 =10;
 		int num2 =0;
-		
 		int result = 0;
+		
 		/*
 		if(num2 == 0) {
 			System.out.println("어떠한 수를 0으로 나눌 수 없습니다.");
