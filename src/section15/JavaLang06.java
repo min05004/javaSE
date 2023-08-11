@@ -27,7 +27,7 @@ public class JavaLang06 {
 		}
 		//문자열 숫자 값을 Integer로 변환.
 		String strNum = "999";
-		Integer num3 = Integer.parseInt(strNum);
+		Integer num3 = Integer.parseInt(strNum); //자주 사용됨.
 		
 		num3 += 1;
 		
