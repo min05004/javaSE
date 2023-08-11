@@ -84,6 +84,19 @@ public class JavaLang07 {
 	   System.out.println("replace: " + replace);
 	   
 	   
+	   //문자 비교
+	   String str12 = "A";
+	   String str13 = "B";
+	   int compareTo =str12.compareTo(str13);
+	   System.out.println("compareTo : " +compareTo);
+	   
+	   //문자  포함여부
+	   
+	  String str14 ="abcd";
+	  String str15 = "cd";
+	  boolean contains = str14.contains(str15);
+	  System.out.println("contains: " + contains);
+	   
 			
 		}
 		
