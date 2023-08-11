@@ -4,7 +4,9 @@ package section15;
  *  자바에서 문자열을 다루기 위해 사용되는 클래스
  *  java.lang 패키지에 포함.
  * 
- * 불변의 객체 : 중간에 객체의 값을 추가하거나 변경하면, 추가나 변경이 된 새로운 영역이 생긴다는 뜻.
+ * 불변의 객체 : 중간에 객체의 값을 추가하거나 변경하면, 
+ * 추가나 변경이 된 새로운 영역이 생긴다는 뜻.
+ * 
  * - 생성된 후 메모리에서 문자열 값이 변경되지 않는다. 
  * (변경 불가 객체)
  * 1. 메모리 절약이 가능.
@@ -17,7 +19,7 @@ public class JavaLang03 {
 	public static void main(String[] args) {
 		
 		String str1 = "abc"; // new 연산자 사용안해도 객체생성 가능
-		System.out.println(str1); // String은 주소값이 아닌 값이 나옴.  
+		System.out.println(str1); // String은 주소값이 아닌 값이 나옴.
 		System.out.println(str1.toString()); // (오버라이딩 되어있다는 뜻.) 
 		
 		

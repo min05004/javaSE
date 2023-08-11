@@ -9,11 +9,10 @@ package section15;
  * - 객체 멤버 변수 값과 객체가 참조하는 객체까지 모두 복사하는 방식.
  * - 새로운 (다른) 객체를 참조하게 된다.
  * 
- * 
  */
 import section15.access1.Soccer;
 
-public class javaLang02 {
+public class JavaLang02 {
 	public static void main(String[] args) throws CloneNotSupportedException {
 		
 		Soccer soccer1 = new Soccer("리버풀","리버풀","프리미엄 리그",1892);
