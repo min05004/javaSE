@@ -13,6 +13,7 @@ public class JavaLang06 {
 		 * 결과가 양수이면 num1 > num2
 		 * 결과가 음수이면 num1 < num2
 		 * 결과가 0이면 num1 = num2
+		 *
 		 */
 		
 		
