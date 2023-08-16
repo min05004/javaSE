@@ -59,7 +59,7 @@ public class Collection02 {
 		ArrayList list2 = (ArrayList) list;
 		
 		//깊은 복사
-		List<String>list3 = (List<String>) list2.clone();
+		List<String>list3 = (List<String>) list2.clone();// ArrayList에만clone있음...
 		
 		System.out.println("=============list3==============");
 		//list2가 가지고 있는 객체 값 복사 -> 하지만 주소값이 다른 객체.
@@ -67,6 +67,7 @@ public class Collection02 {
 					System.out.println("name: " + name);
 		}
 				System.out.println("===========================");
+				
 				//데이터 삽입 삭제가 자주 일어난다면 linkedList 가 더 빠르다.
 		List<String> linkedList = new LinkedList<String>();
 
