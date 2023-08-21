@@ -15,7 +15,7 @@ public class Thread06 {
 				}
 				System.out.println("아무개 스레드 종료");
 
-			}
+			} 
 
 		}).start();
 
