@@ -38,7 +38,7 @@ public class Collection04 {
 		//key 값이 어떤게 있는지 모를 경우, set으로 받을경우
 		
 		Set<String>keys = map.keySet();
-		
+		//반복문으로 출력
 		Iterator<String> it = keys.iterator();
 		while(it.hasNext()) {
 			String name = it.next();
