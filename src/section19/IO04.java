@@ -35,7 +35,8 @@ public class IO04 {
 				System.out.println("upload2 디렉토리가 생성되었습니다.");
 			}
 			
-			// hello2.txt 파일생성
+			// hello2.txt 파일생성 
+			// 파일이 존재하지않으면 파일을 생성해줌.폴더는 생성 안함.
 			File f2 = new File(f1, "hello2.txt");
 			if (f2.createNewFile()) {
 				System.out.println("hello2.txt 파일이 생성되었습니다.");
