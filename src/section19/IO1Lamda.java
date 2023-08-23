@@ -39,7 +39,7 @@ public class IO1Lamda {
 		.map(e -> new File(f,(String) e))
 		.collect(Collectors.toList());
 			
-			
+		// 수정해야함....	
 	}}
 		
 		
