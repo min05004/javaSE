@@ -13,14 +13,8 @@ import java.util.Calendar;
  * File Class
  * 경로 정보를 받아 파일 또는 디렉토리 정보를 객체화
  * 
- *
- 
- 
- 
- 
-
-  
  */
+
 public class IO01 {
 	public static void main(String[] args) {
 		// file 객체 생성 - "C:\\" 안에 정보를 알고있음.
@@ -28,6 +22,7 @@ public class IO01 {
 
 		// C 드라이브 하위에 있는 모든 디렉토리 및 파일 리스트 반환
 		String[] list = f.list();
+		
 
 		// Calendar 객체 생성
 		Calendar c = Calendar.getInstance();
