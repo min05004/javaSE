@@ -7,7 +7,7 @@ import java.util.List;
  * Stream
  *  데이터 처리와 컬렉션을 다루는데에 사용되는 선언적이고 함수형 스타일의 API이다.
  *  컬렉션을 스트림으로 변환하여 조작,필터링,매핑 등 효율적이고 간결하게 수행가능.
- * 
+ *  
  * 
  */
 
@@ -15,7 +15,7 @@ import java.util.List;
 public class Lambda02 {
 	public static void main(String[] args) {
 	List<String> names = Arrays.asList("Apple","Bat","Cat","Dog");
-	//Arrays.asLis
+//  Arrays.asLis
 //	printBasic(names);
 //	System.out.println("===============");
 //	printWithFP(names);

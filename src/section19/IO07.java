@@ -15,7 +15,7 @@ import java.io.PrintStream;
 public class IO07 {
 	public static void main(String[] args) {
 		
-		try(
+		try( 
 				FileInputStream fis = new FileInputStream("./upload/hello.txt");
 				BufferedInputStream bis = new BufferedInputStream(fis);
 				
