@@ -34,7 +34,7 @@ public class JDBC02 {
 			sql.append("FROM employees ");
 			sql.append("WHERE salary >= ? " );
 			sql.append("AND job_id LIKE '%'||?||'%' ");
-			sql.append("ORDER BY salary DESC");
+			sql.append("ORDER BY salary DESC"); // DESC 높은순으로 정렬
 			
 			//4.prepareStatement 객체 생성 .? 안에 바뀌는 변수 값이 들어감.
 			
