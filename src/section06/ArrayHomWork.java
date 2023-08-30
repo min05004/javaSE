@@ -1,4 +1,5 @@
 package section06;
+
 /*
  * 
  * 숙제 7*7
@@ -138,6 +139,7 @@ public class ArrayHomWork {
 				
 				// 위치 값 i 열 기준 /2,4,6 열은 i값은 늘어가고,j값은 줄어듬
 
+<<<<<<< HEAD
 			}
 		}
 		for (int i = 0; i < 13; i++) {
@@ -233,7 +235,10 @@ public class ArrayHomWork {
 			for(int j=0; j <nums[i].length; j++) {
 				System.out.print(nums[i][j]+ " "); 
 				
+=======
+>>>>>>> branch 'master' of https://github.com/min05004/javaSE.git
 			}
+<<<<<<< HEAD
 		System.out.println();
 		}
 		
@@ -242,9 +247,44 @@ public class ArrayHomWork {
 	}
 
 }
+=======
+		}
+		for (int i = 0; i < 13; i++) {
+			
+			if (i < 7) {
+				for (int j = 0; j < i + 1; j++) { // 점점 증가하는 모양,위쪽 삼각형
+					if (i % 2 == 0) { // 짝수일때 줄 출력.
+						System.out.print(arr[i - j][j] + " ");// 2,4,6 열은 i값은 늘어가고,j값은 줄어듬 표현 출력.
+					} else {
+						System.out.print(arr[j][i - j] + " "); // 홀수일때 j값 늘어나고 i값 줄어듬.
+					}
+				}
+			} else {
+				for (int j = 0; j < 13 - i; j++) {
+					if (i % 2 == 0) {
+						System.out.print(arr[6 - j][i - 6 + j] + " ");
+					} else {
+						System.out.print(arr[i - 6 + j][6 - j] + " ");
+					}
+				}
+			}
+			System.out.println();
+		}
+>>>>>>> branch 'master' of https://github.com/min05004/javaSE.git
 
+<<<<<<< HEAD
 	*/	
 				
 				
+=======
+	}
+}
+/*
+ * 
+ * 
+ * 
+ */
+
+>>>>>>> branch 'master' of https://github.com/min05004/javaSE.git
 
 

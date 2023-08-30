@@ -1,5 +1,11 @@
 package section03;
 /*
+ * 7. 쉬프트 연산자
+ *  << : 지정한 수만큼 비트를 전부 왼쪽으로 이동시킴
+ *  >> : 부호를 유지하면서 지정한 수만큼 비트를 전부 오른쪽으로 이동시킴
+ * 
+ * 
+ * 
  * 8.삼항 연산자(boolean 타입)
  * 조건식 ?  조건식이 참 일 경우 반환 : 조건식이 거짓일 경우 반환
  * 
@@ -21,7 +27,16 @@ public class Operator07 {
 		System.out.println(result);
 		
 		
+		int x = 3;
+		int y = 7;
+		
+		System.out.println(x << 2); // 0011 << 2 -> 1100
+		System.out.println(y >> 7);
+		
 		}
+	
+	
+		
 	
 }
 

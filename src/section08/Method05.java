@@ -24,7 +24,7 @@ public class Method05 {
 		String id =memberVO.getId();
 		String name = memberVO.getName();
 		String age = memberVO.getAge();
-		
+		 
 		
 		System.out.println("id: "+id);
 		System.out.println("name: "+name);
