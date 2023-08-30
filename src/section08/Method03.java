@@ -5,6 +5,7 @@ public class Method03 {
 		
 		int result = add(10,5); //15라는 값이 result에 대입.
 		System.out.println("result: " + result);
+	
 		
 		
 		
