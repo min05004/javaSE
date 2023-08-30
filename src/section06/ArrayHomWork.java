@@ -139,7 +139,7 @@ public class ArrayHomWork {
 				
 				// 위치 값 i 열 기준 /2,4,6 열은 i값은 늘어가고,j값은 줄어듬
 
-<<<<<<< HEAD
+
 			}
 		}
 		for (int i = 0; i < 13; i++) {
@@ -164,7 +164,7 @@ public class ArrayHomWork {
 			System.out.println();
 		}
 
-	}
+	
 }
 /*
  * 
@@ -270,21 +270,19 @@ public class ArrayHomWork {
 			}
 			System.out.println();
 		}
->>>>>>> branch 'master' of https://github.com/min05004/javaSE.git
 
-<<<<<<< HEAD
 	*/	
 				
 				
-=======
+
 	}
-}
+
 /*
  * 
  * 
  * 
  */
 
->>>>>>> branch 'master' of https://github.com/min05004/javaSE.git
+
 
 
